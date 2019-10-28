@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registation Form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <h1>Personal Information</h1>
+            <p>Note that optional fields are marked accordingly.</p>
+
+            <p>
+                <label>Name: </label>
+                <input type="text" required minlength="2" maxlength="255" placeholder="First and last name">
+            </p>
+
+            <p>
+                <label>Email: </label>
+                <input type="email" required placeholder="example@company.com">
+            </p>
+
+            <p>
+                <label>Phone: </label>
+                <input type="tel" required placeholder="+40 722222222">
+            </p>
+
+            <p>
+                <label>Website URL: </label>
+                <input type="url" maxlength="1000" placeholder="https://example.com">
+                <small>(optional)</small>
+            </p>
+
+            <p>
+                <label>Age: </label>
+                <input type="number" min="1" max="150">
+                <small>(optional)</small>
+            </p>
+            <p>
+                <label>Birth date: </label>
+                <input type="date" required min="1900-01-01" max="2019-10-24">
+            </p>
+
+            <p>
+                <label>Favorite vegetable: <br>
+                    <select>
+                       <option>---</option>
+                       <option>Cucumber</option>
+                       <option>Pepper</option> 
+                    </select>
+                    <small>(optional)</small>
+                </label>
+            </p>
+            <p>
+                <label>Favorite fruit: <br>
+                    <input type="text" list="list-fruit" pattern="[Bb]anana|[Ch]erry|[Ap]ple">
+                    <small>(optional)</small>
+                    <datalist id="list-fruit">
+                        <option>Banana</option>
+                        <option>Cherry</option>
+                        <option>Apple</option>
+                    </datalist>
+                </label>
+            </p>
+            <p>
+                <label>Favorite color: </label>
+                <input type="color" value="#f6b73c">
+                <small>(optional)</small>
+            </p>
+
+            <p>
+                <label>Wakeup time: </label>
+                <input type="time">
+                <small>(optional)</small>
+            </p>
+
+            
+ 
+            <p>
+                <label>Gender: </label>
+                <br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <small>(optional)</small>
+            </p>
+            <button type="submit" value="Submit"><b>Submit</b></button>
+            <button type="reset" value="Reset">Reset</button>
+
+
+
+
+        </form>
+    </body>
+</html>
