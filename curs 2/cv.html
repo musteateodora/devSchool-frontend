@@ -1,104 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Curriculum Vitae</title>
-        <meta charset="utf-8">  
-    </head>
-    <body>
+
+<head>
+    <title>Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <style>
+        header {
+            display: flex;
+            flex-direction: row;
+            padding: 1%;
+            align-items: center;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 2%;
+            background: white;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            justify-content: space-around;
+
+        }
+ 
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            background: yellowgreen;
+        }
+
+
+        main {
+            background: white;
+            margin-left: 2%;
+            margin-right: 2%;
+
+        }
+
+        section {
+            background: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 1%;
+
+        }
+
+        h2 {
+            border-color: gray;
+            border-bottom-style: solid;
+            padding: 1%;
+        }
+
+        table,
+        td,
+        th {
+            border-style: solid;
+            border-color: gray;
+            border-collapse: collapse;
+
+        }
+
+        img {
+            width: 15%;
+            border-radius: 50%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="profile.jpg" alt="ProfilePhoto">
         <h1>Teodora Mustea</h1>
-        <small>24 years( 1995-05-11), F</small>
         <address>
             <p>City: Bucharest</p>
             <p>Dirver's License: yes</p>
             <p>Email: <a href="mailto:username@example.com"> mustea.teodora@gmail.com</a></p>
             <p>Phone: <a href="tel:+40000000000">+40 743121357</a></p>
         </address>
-        <h2>PROFESSIONAL EXPERIENCE</h2>
-        <h3>Trainee @ Cegeka Java Academy</h3>
-        <small>April 2019 - September 2019</small>
+    </header>
+    <main>
 
-        <p>Job domain: IT Software</p>
-        <p>Company industry: IT&C Software</p>
-        <p>No. of eployees: 1000</p>
-        <p>Responsabilities:</p>
-        <ul>
-            <li>2 hours/week meetings with Java developers from the company</li>
-            <li>At first, we discussed important concepts about Java, Spring and Hibernate.We were provided with support from the team in order to understand how to apply these concepts</li>
-            <li>We were divided in teams of 5 persons and started developing a Springboot application using the acquired knowledge</li>
-            <li>Meet and discuss what new features to add and assign tasks</li>
-            <li>Develop new features and test them with Junit</li>
-            <li>Use of version control tools (Git)</li>
-            <li>Debugging and bugfixing</li>
-            <li>Work as a team, discussing any uncertainties in order to reach the best decision</li>
-        </ul>
-        
+        <section>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+            <h3>Trainee @ Cegeka Java Academy</h3>
+            <small>April 2019 - September 2019</small>
 
-        <h3>Scriptwriter/Quality Assurance @ Ipsos Interactive Services</h3>
-        <small>February 2017 - September 2017</small>
+            <p>Job domain: IT Software</p>
+            <p>Company industry: IT&C Software</p>
+            <p>No. of eployees: 1000</p>
+            <label>Responsabilities:</label>
+            <ul>
+                <li>2 hours/week meetings with Java developers from the company</li>
+                <li>At first, we discussed important concepts about Java, Spring and Hibernate.We were provided with
+                    support
+                    from the team in order to understand how to apply these concepts</li>
+                <li>We were divided in teams of 5 persons and started developing a Springboot application using the
+                    acquired
+                    knowledge</li>
+                <li>Meet and discuss what new features to add and assign tasks</li>
+                <li>Develop new features and test them with Junit</li>
+                <li>Use of version control tools (Git)</li>
+                <li>Debugging and bugfixing</li>
+                <li>Work as a team, discussing any uncertainties in order to reach the best decision</li>
+            </ul>
 
-        <p>Job domain: IT Software</p>
-        <p>Company industry: Market Reasearch</p>
-        <p>No. of eployees: 1000</p>
-        <p>Responsabilities:</p>
-        <ul>
-            <li>6 weeks of training in order to learn Dimensions programming language</li>
-            <li>Create and modify surveys using Dimensions programming language, following all the logical conditions requested by the clients and adding new audio / video modules</li>
-            <li>Create scripts in order to validate the surveys and to avoid any errors</li>
-            <li>Monitor the respondents by checking the database to make sure no errors occur and that the project progress in the field is in line with the requirements</li>
-            <li>Work as a team, providing support to get the best results</li>
-        </ul>
-        
-        <h2>STUDIES</h2>
-        <h3>University of Bucharest, Faculty of Mathematics and Computer Science, Software Engineering</h3>        
-        <small>October 2018 - July 2020</small>
 
-        <p>Diploma: Master's Degree</p>
-        <p>Field of studies: Informatics</p>
-        <p>City: Bucharest</p>
+            <h3>Scriptwriter/Quality Assurance @ Ipsos Interactive Services</h3>
+            <small>February 2017 - September 2017</small>
 
-        <h3>University of Bucharest, Faculty of Mathematics and Computer Science, Computer Science</h3>        
-        <small>October 2014 - July 2018</small>
+            <p>Job domain: IT Software</p>
+            <p>Company industry: Market Reasearch</p>
+            <p>No. of eployees: 1000</p>
+            <label>Responsabilities:</label>
+            <ul>
+                <li>6 weeks of training in order to learn Dimensions programming language</li>
+                <li>Create and modify surveys using Dimensions programming language, following all the logical
+                    conditions
+                    requested by the clients and adding new audio / video modules</li>
+                <li>Create scripts in order to validate the surveys and to avoid any errors</li>
+                <li>Monitor the respondents by checking the database to make sure no errors occur and that the project
+                    progress in the field is in line with the requirements</li>
+                <li>Work as a team, providing support to get the best results</li>
+            </ul>
+        </section>
 
-        <p>Diploma: Bachelor's Degree</p>
-        <p>Field of studies: Engineering</p>
-        <p>City: Bucharest</p>
+        <section>
+            <h2>STUDIES</h2>
+            <h3>University of Bucharest, Faculty of Mathematics and Computer Science, Software Engineering</h3>
+            <small>October 2018 - July 2020</small>
 
-        <h2>ABILITIES</h2>
-        <table border="1">
-            <caption>Foreign languages</caption>
-            <tr>
-                <th></th>
-                <th>Writing</th>
-                <th>Reading</th>
-                <th>Speaking</th>
+            <p>Diploma: Master's Degree</p>
+            <p>Field of studies: Informatics</p>
+            <p>City: Bucharest</p>
 
-            </tr>
-            <tr>
-                <td>English</td>   
-                <td>Intermediate</td>
-                <td>Intermediate</td>
-                <td>Intermediate</td>
-    
-            </tr>
-        </table>
-        <p>Driving license: Yes</p>
-        <p>Qualities: Problem solving, Planning and organizing, Analysis capacity</p>
-        <p>IT knowledge:</p>
-        <p>Programming:</p>
-        <ul>
-            <li>Java - beginner</li>
-            <li>Android SDK - beginner</li>
-            <li>Springboot - beginnner</li>
-            <li>Hibernate - beginner</li>
-            <li>C/C++ - beginner</li>
-        </ul>
-        
-        <p>Database:</p>
-        <ul>
-            <li>MySql - beginner</li>
-            <li>Firebase - beginner</li>
-            <li>Oracle - beginnner</li>
-        </ul>
-        <p>Certificates: ECDL Core Certificate</p>
-    </body>
+            <h3>University of Bucharest, Faculty of Mathematics and Computer Science, Computer Science</h3>
+            <small>October 2014 - July 2018</small>
+
+            <p>Diploma: Bachelor's Degree</p>
+            <p>Field of studies: Engineering</p>
+            <p>City: Bucharest</p>
+        </section>
+        <section>
+            <h2>ABILITIES</h2>
+
+            <table>
+                <tr>
+                    <th>Foreign languages</th>
+                    <th>Writing</th>
+                    <th>Reading</th>
+                    <th>Speaking</th>
+
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Intermediate</td>
+                    <td>Intermediate</td>
+                    <td>Intermediate</td>
+
+                </tr>
+            </table>
+            <p>Driving license: Yes</p>
+            <p>Qualities: Problem solving, Planning and organizing, Analysis capacity</p>
+            <p>Certificates: ECDL Core Certificate</p>
+
+
+            <label>IT knowledge:</label>
+            <p>Programming:</p>
+            <ul>
+
+                <li>Java - beginner</li>
+                <li>Android SDK - beginner</li>
+                <li>Springboot - beginnner</li>
+                <li>Hibernate - beginner</li>
+                <li>C/C++ - beginner</li>
+
+            </ul>
+
+            <p>Database:</p>
+            <ul>
+                <li>MySql - beginner</li>
+                <li>Firebase - beginner</li>
+                <li>Oracle - beginnner</li>
+            </ul>
+
+        </section>
+    </main>
+</body>
+
 </html>
