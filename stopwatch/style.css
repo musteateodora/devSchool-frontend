@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "digital";
+  src: url("digital-7.ttf");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+#time-div {
+  font-family: "digital";
+  font-size: 500%;
+}
+#start-stop,
+#reset-time {
+  color: white;
+  border-radius: 10%;
+  border: 0;
+  height: 10%;
+  width: 10%;
+  font-size: 150%;
+}
+
+#start-stop {
+  background: green;
+}
+
+#reset-time {
+  display: none;
+}

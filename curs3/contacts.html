@@ -21,7 +21,7 @@
             ];
             const list = document.getElementById('list');
 
-            for(let i=0; i < contacts.length;i++){
+     /*       for(let i=0; i < contacts.length;i++){
                 list.innerHTML += '<li>' + contacts[i] + '</li>';
                // list.insertAdjacentHTML('beforeend', '<li>'+ contacts[i] + '</li>');
             }
@@ -35,7 +35,7 @@
 
             contacts.forEach(contact => {
                 list.innerHTML+= '<li>' + contact+ '</li>';
-            });
+            });*/
 
             const tags = contacts.map(contact => `<li>${contact}</li>`);
             list.innerHTML = tags.join('');
