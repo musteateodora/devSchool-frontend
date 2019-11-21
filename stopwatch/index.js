@@ -4,6 +4,12 @@ let hours = 0,
   milisec = 0;
 var updateTime = null;
 let action = true;
+window.addEventListener('keypress', function(e){
+  if(e.keyCode==13){
+    document.getElementById('start-stop').click();
+
+  }
+});
 
 function countTime() {
   milisec += 100;
@@ -16,6 +22,7 @@ function countTime() {
 }
 
 function onClickStartStop() {
+  document.getElementById('start-stop').blur();
   if (action == true) {
     updateTime = setInterval(countTime, 100);
     setButtonStop();
